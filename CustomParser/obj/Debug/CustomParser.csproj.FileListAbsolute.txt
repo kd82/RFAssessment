@@ -1,0 +1,5 @@
+C:\new_workspace\RFAssessment\CustomParser\bin\Debug\CustomParser.dll
+C:\new_workspace\RFAssessment\CustomParser\bin\Debug\CustomParser.pdb
+C:\new_workspace\RFAssessment\CustomParser\obj\Debug\CustomParser.csproj.CoreCompileInputs.cache
+C:\new_workspace\RFAssessment\CustomParser\obj\Debug\CustomParser.dll
+C:\new_workspace\RFAssessment\CustomParser\obj\Debug\CustomParser.pdb
