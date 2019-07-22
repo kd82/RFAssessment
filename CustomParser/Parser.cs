@@ -3,18 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using CustomParser.Mapping;
 using CustomParser.Models;
+using CustomParser.Tokenizer;
 
 namespace CustomParser
 {
    public class Parser<TEntity> : IParser<TEntity>
    {
       private readonly IMapping<TEntity> mapping;
-      private readonly ParserOptions options;
 
-      public Parser(ParserOptions options, IMapping<TEntity> mapping)
+      private readonly ITokenizer tokenizer;
+
+      public Parser(char delimeter, IMapping<TEntity> mapping)
       {
-         this.options = options;
          this.mapping = mapping;
+         this.tokenizer = new StringSplitTokenizer(new []{delimeter});
       }
 
       public IEnumerable<MappingResult<TEntity>> Parse(IEnumerable<Row> data)
@@ -25,7 +27,7 @@ namespace CustomParser
 
          query = query.Where(row => !string.IsNullOrWhiteSpace(row.Data));
 
-         return query.Select(line => new TokenizedRow(line.Index, options.Tokenizer.Tokenize(line.Data)))
+         return query.Select(line => new TokenizedRow(line.Index, this.tokenizer.Tokenize(line.Data)))
             .Select(fields => mapping.Map(fields));
       }
    }

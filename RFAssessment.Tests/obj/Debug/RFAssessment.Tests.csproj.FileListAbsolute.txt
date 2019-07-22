@@ -28,3 +28,11 @@ C:\new_workspace\RFAssessment\RFAssessment.Tests\obj\Debug\RFAssessment.Tests.cs
 C:\new_workspace\RFAssessment\RFAssessment.Tests\obj\Debug\RFAssessment.Tests.csproj.CopyComplete
 C:\new_workspace\RFAssessment\RFAssessment.Tests\obj\Debug\RFAssessment.Tests.dll
 C:\new_workspace\RFAssessment\RFAssessment.Tests\obj\Debug\RFAssessment.Tests.pdb
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\RFAssessment.Tests.dll.config
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\Unity.Container.dll
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\Unity.Abstractions.dll
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\Unity.Mvc5.dll
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\Unity.Container.pdb
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\Unity.Abstractions.pdb
+C:\new_workspace\RFAssessment\RFAssessment.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

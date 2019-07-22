@@ -48,16 +48,19 @@
             "url": "/Home/LoadData",
             "type": "GET",
             "datatype": "json",
-            error: function(jqXHR, textStatus, errorThrown) {
+            error: function(errorThrown) {
                console.log(errorThrown);
             }
          },
          "columns": [
             { "data": "Result.CompanyName", "name": "Result.CompanyName", "autoWidth": true },
-            { "data": "Result.YearsInBusiness", "name": "Result.YearsInBusiness", "autoWidth": true },
-            { "data": "Result.ContactName", "name": "Result.ContactName", "autoWidth": true },
+            { "data": "Result.YearsInBusiness", "name": "Result.YearsInBusiness", "autoWidth": true},
+            { "data": "Result.ContactFirstName", "name": "Result.ContactName", "autoWidth": true },
             { "data": "Result.ContactPhone", "name": "Result.ContactPhone", "autoWidth": true },
-            { "data": "Result.ContactEmail", "name": "Result.ContactEmail", "autoWidth": true },
+            { "data": "Result.ContactEmail", "name": "Result.ContactEmail", "autoWidth": true }
+         ],
+         columnDefs: [
+            { targets: [1], orderData:[1,0]}
          ]
       });
    });

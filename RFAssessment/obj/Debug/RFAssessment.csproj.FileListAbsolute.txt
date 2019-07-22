@@ -69,3 +69,10 @@ C:\new_workspace\RFAssessment\RFAssessment\obj\Debug\RFAssessment.csproj.CoreCom
 C:\new_workspace\RFAssessment\RFAssessment\obj\Debug\RFAssessment.csproj.CopyComplete
 C:\new_workspace\RFAssessment\RFAssessment\obj\Debug\RFAssessment.dll
 C:\new_workspace\RFAssessment\RFAssessment\obj\Debug\RFAssessment.pdb
+C:\new_workspace\RFAssessment\RFAssessment\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\new_workspace\RFAssessment\RFAssessment\bin\Unity.Abstractions.dll
+C:\new_workspace\RFAssessment\RFAssessment\bin\Unity.Container.dll
+C:\new_workspace\RFAssessment\RFAssessment\bin\Unity.Mvc5.dll
+C:\new_workspace\RFAssessment\RFAssessment\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\new_workspace\RFAssessment\RFAssessment\bin\Unity.Abstractions.pdb
+C:\new_workspace\RFAssessment\RFAssessment\bin\Unity.Container.pdb
